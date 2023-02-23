@@ -9,6 +9,5 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    answer=floor(a/b)
-    return answer
+    return floor(a%b)
 print(main(23,5))
